@@ -1,0 +1,32 @@
+
+.gallery {
+  
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.photo-card {
+  position: relative;
+  display: flex;
+  width: calc(100%/3);
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.stats {
+  background-color: rgba($color: #000000, $alpha: 0.4);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  color: azure;
+
+  
+}
+.stats-item {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
